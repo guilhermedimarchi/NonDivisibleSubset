@@ -11,7 +11,7 @@ class NonDivisibleSubsetTest {
 	@Test
 	void test() {
 		NonDivisibleSubset nds = new NonDivisibleSubset();
-		assertEquals(3, nds.encontrar(3, Arrays.asList(1, 7, 2, 4)));
+		assertEquals(3, nds.findNonDivisibleSubset(3, Arrays.asList(1, 7, 2, 4)));
 	}
 
 }
